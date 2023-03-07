@@ -1,0 +1,153 @@
+.cabecalho .logo {
+    width: 5%;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 1px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #e79924;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: 'bebas neue';
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #000000;
+}
+
+.imagem-fundo {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagem-fundo::after {
+    content: "";
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 1, 0.959) 0%, rgba(0, 0, 0, 0.281) 50%, rgba(0, 0, 1, 0.959) 100%);
+}
+
+
+.imagem {
+    width: 1440px;
+    height: 757px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 1px 1px;
+}
+
+.container .marca {
+    max-width: 600px;
+    padding: 0 20px 10px;
+}
+
+
+.container .logo-info {
+    color: #ffffff;
+    width: 40%;
+    font-size: 30px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    padding: 6% 1% 1%;
+}
+
+.logo-insta {
+
+    width: 25%;
+    padding: 5% 5%;
+
+}
+
+#text {
+    width: 120%;
+    display: flex;
+    padding: 0 20% 1%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#rede-social a {
+    color: #ffffff;
+}
+
+#rede-social a:hover {
+    color: #e79924;
+}
+
+#rede-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20% 21%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#bloco {
+    
+    background-color: #e79924;
+    max-width: 300%;
+    margin: 0 auto;
+    height: calc(90vh - 132px);
+    padding: 0 10% 10%  10%;
+    border-radius: 2%;
+
+
+}
+
+#bloco #a1 {
+    color: #ffffff;
+    width: 150%;
+    display: flex;
+    padding: 0 25% 35% 1%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold bold;
+
+}
+
+#bloco #a1:hover {
+
+    color: #000000;
+
+}
+
+    
+

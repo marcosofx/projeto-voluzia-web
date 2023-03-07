@@ -1,0 +1,131 @@
+.cabecalho .logo {
+    width: 5%;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 1px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #e79924;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: 'bebas neue';
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #000000;
+}
+
+.imagem-fundo {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagem-fundo::after {
+    content: "";
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 1, 0.959) 0%, rgba(0, 0, 0, 0.281) 50%, rgba(0, 0, 1, 0.959) 100%);
+}
+
+
+.imagem {
+    width: 1440px;
+    height: 757px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 1px 1px;
+}
+
+.container .marca {
+    max-width: 450px;
+}
+
+.container .info {
+    color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo {
+    max-width: 800px;
+    padding: 0 100px 60px;
+}
+
+#bloco {
+    background-color: #ffffff2c;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(90vh - 132px);
+    padding: 1% 1%;
+    border-radius: 10%;
+
+}
+
+.Slides {
+    max-width: 450px;
+}
+
+.center {
+
+    display: flex;
+    align-items: center;
+    color: #e7992441;
+    font-size: 50px;
+}
+
+.center.display-botton {
+    width: 100%;
+    margin: 0px 50px;
+}
+
+.seta-left {
+    margin: 0px 100px;
+}
+
+.seta-left:hover {
+    transition: 0.2s;
+    color: #e79924;
+}
+
+.seta-right:hover {
+    transition: 0.2s;
+    color: #e79924;
+}

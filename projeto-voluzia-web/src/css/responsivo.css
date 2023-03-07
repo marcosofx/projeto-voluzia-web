@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #000000;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px
+
+    }
+
+    
+    .container .marca {
+        max-width: 100%;
+}
+
+    .container .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+}
